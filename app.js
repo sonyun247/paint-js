@@ -69,7 +69,6 @@ function handleSaveImg() {
   const link = document.createElement("a");
   link.href = image;
   link.download = "paintJS";
-  console.log(image, link);
   link.click();
 }
 
